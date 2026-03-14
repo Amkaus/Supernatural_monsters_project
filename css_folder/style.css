@@ -1,0 +1,65 @@
+body{
+background-color:  RGB(206, 186, 168);
+}
+
+header ul li {
+    color: rgb(255, 255, 254);
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+header ul li a{
+    color: rgb(255, 215, 0);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    font-family: Arial;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+.monster-page h2 {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 400;
+  background-color: rgb(230, 230, 250);
+  padding: 5px 10px;
+}
+
+.monster-page h2 + p {
+  color: rgb(50, 10, 10);
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+}
+
+.monster-page p.detailed {
+  color: rgb(50, 10, 10);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.monster-page ul {
+  list-style-type: none;
+  font-family: 'Courier New', monospace;
+  color: rgb(50, 50, 50);
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: rgb(245, 245, 220);
+  padding: 10px 10px 10px 15px;
+  border-left: 4px solid rgb(139, 0, 0);
+  border-radius: 0 8px 8px 0;
+}
+
+.monster-page ul li {
+  background: url('../images/marker.jpg') no-repeat left center;
+  background-size: 16px 16px;
+  padding-left: 25px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}

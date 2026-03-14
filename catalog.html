@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сверхъестественное - Каталог монстров</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Ваш дополнительный CSS -->
+    <link rel="stylesheet" href="css_folder/style.css">
+</head>
+<body>
+    <!-- Навбар (такой же, как на других страницах) -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Сверхъестественное</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="catalog.html">Каталог монстров</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Основной контент -->
+    <main class="container my-4">
+        <h1 class="mb-4">Каталог монстров</h1>
+        <div class="row g-4">
+            <!-- Вампир -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="images/vampire.jpg" class="card-img-top" alt="Вампир">
+                    <div class="card-body">
+                        <h5 class="card-title">Вампир</h5>
+                        <a href="vampire.html" class="btn btn-primary stretched-link">Подробнее о вампирах</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Оборотень -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="images/werewolf.jpg" class="card-img-top" alt="Оборотень">
+                    <div class="card-body">
+                        <h5 class="card-title">Оборотень</h5>
+                        <a href="werewolf.html" class="btn btn-primary stretched-link">Подробнее об оборотнях</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Призрак -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="images/ghost.jpg" class="card-img-top" alt="Призрак">
+                    <div class="card-body">
+                        <h5 class="card-title">Призрак</h5>
+                        <a href="ghost.html" class="btn btn-primary stretched-link">Подробнее о призраках</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Подвал (можно позже тоже обновить) -->
+    <footer class="text-center py-3 bg-light">
+        <p class="mb-0">&copy; Все права защищены. По мотивам сериала «Сверхъестественное».</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
